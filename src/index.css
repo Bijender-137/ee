@@ -1,87 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Raleway:wght@300;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Raleway:wght@300;500;600;700;800;900&display=swap");
 
 .ff_inter {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .ff_plus {
-    font-family: 'Plus Jakarta Sans', sans-ser
+  font-family: "Plus Jakarta Sans", sans-ser;
 }
 
 .ff_raleway {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 @font-face {
-    font-family: 'Neue Machina';
-    src: url(./assets/fonts/NeueMachina-Light.otf);
-    src: url(./assets/fonts/NeueMachina-Regular.otf);
-    src: url(./assets/fonts/NeueMachina-Ultrabold.otf)
+  font-family: "Neue Machina";
+  src: url(./assets/fonts/NeueMachina-Light.otf);
+  src: url(./assets/fonts/NeueMachina-Regular.otf);
+  src: url(./assets/fonts/NeueMachina-Ultrabold.otf);
 }
 
 .ff_neue {
-    font-family: 'Neue Machine';
+  font-family: "Neue Machine";
 }
 
 :root {
-    --fs-12: 12px;
-    --fs-14: 14px;
-    --fs-16: 16px;
-    --fs-18: 18px;
-    --fs-20: 20px;
-    --fs-22: 22px;
-    --fs-24: 24px;
-    --fs-36: 36px;
-    --fs-38: 38px;
-    --fs-46: 46px;
-    --fs-52: 52px;
-    --fs-85: 85px;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-22: 22px;
+  --fs-24: 24px;
+  --fs-36: 36px;
+  --fs-38: 38px;
+  --fs-46: 46px;
+  --fs-52: 52px;
+  --fs-85: 85px;
+  --fs-132: 132.828px;
 }
 
 .fs_12 {
-    font-size: var(--fs-12)
+  font-size: var(--fs-12);
 }
 
 .fs_14 {
-    font-size: var(--fs-14)
+  font-size: var(--fs-14);
 }
 
 .fs_16 {
-    font-size: var(--fs-16)
+  font-size: var(--fs-16);
 }
 
 .fs_18 {
-    font-size: var(--fs-18)
+  font-size: var(--fs-18);
 }
 
 .fs_20 {
-    font-size: var(--fs-20)
+  font-size: var(--fs-20);
 }
 
 .fs_22 {
-    font-size: var(--fs-22)
+  font-size: var(--fs-22);
 }
 
 .fs_24 {
-    font-size: var(--fs-24)
+  font-size: var(--fs-24);
 }
 
 .fs_36 {
-    font-size: var(--fs-36)
+  font-size: var(--fs-36);
 }
 
 .fs_38 {
-    font-size: var(--fs-38)
+  font-size: var(--fs-38);
 }
 
 .fs_46 {
-    font-size: var(--fs-46)
+  font-size: var(--fs-46);
 }
 
 .fs_52 {
-    font-size: var(--fs-52)
+  font-size: var(--fs-52);
 }
 
 .fs_85 {
-    font-size: var(--fs-85)
+  font-size: var(--fs-85);
+}
+.fs_132 {
+  font-size: var(--fs-132);
+}
+.line{
+    height: 3px;
+    
 }

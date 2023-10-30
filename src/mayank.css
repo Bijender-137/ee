@@ -1,0 +1,94 @@
+.bg_amplify {
+  background: url(../src/assets/images/png/bullbg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.mw_554 {
+  max-width: 554px;
+}
+.py_300 {
+  margin-top: 330px;
+  margin-bottom: 180px;
+}
+.cloud {
+  position: absolute;
+  bottom: -15%;
+}
+.line {
+  height: 3px;
+  border-radius: 18px;
+  opacity: 0.2;
+  background: #fff;
+}
+.opacity_80 {
+  opacity: 0.7;
+}
+.mw_819 {
+  max-width: 819px;
+}
+.op_10 {
+  opacity: 0.1;
+}
+.vault_card {
+  border-radius: 12px;
+  border: 1px solid #1643c3;
+  background: linear-gradient(
+    124deg,
+    rgba(19, 245, 255, 0.25) 7.19%,
+    rgba(0, 66, 255, 0) 93.2%
+  );
+  backdrop-filter: blur(12.5px);
+}
+.my_btn {
+  border-radius: 8px;
+  background: rgba(108, 103, 241, 0.2);
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1643c3;
+  border-radius: 10px;
+}
+.color_blue {
+  color: #1643c3;
+}
+.vault_bg {
+  position: absolute;
+  top: 30%;
+  right: 0%;
+  font-variant-numeric: lining-nums proportional-nums;
+}
+
+/* -----------------cole stratigies---------------------------- */
+.ff_cole {
+  overflow-x: hidden;
+  background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 46px,
+      rgba(255, 255, 255, 0.047) 10px,
+      rgba(255, 255, 255, 0.047) 48px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      transparent,
+      transparent 46px,
+      rgba(255, 255, 255, 0.047) 30px,
+      rgba(255, 255, 255, 0.046) 48px
+    ),
+    linear-gradient(254.85deg, #1643c3 -0.99%, #000000 135.25%) !important;
+}
