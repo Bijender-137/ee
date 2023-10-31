@@ -69,7 +69,7 @@
 .vault_bg {
   position: absolute;
   top: 30%;
-  right: 0%;
+  left: -9%;
   font-variant-numeric: lining-nums proportional-nums;
 }
 
@@ -91,4 +91,131 @@
       rgba(255, 255, 255, 0.046) 48px
     ),
     linear-gradient(254.85deg, #1643c3 -0.99%, #000000 135.25%) !important;
+}
+.slick-track {
+  display: flex !important;
+}
+.slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.slick-slide {
+  display: flex !important;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.bluecircle {
+  display: flex;
+  width: 190px;
+  height: 190px;
+  background-color: #3916c3;
+  z-index: 3;
+  opacity: 0.45;
+  filter: blur(60px);
+  position: absolute;
+  border-radius: 50%;
+  top: -10%;
+  left: -10%;
+}
+
+li.slick-active {
+  color: #ffffff;
+  background-color: #d9d9d9 !important;
+  width: 51px !important;
+  height: 11px !important;
+  border-radius: 23px;
+
+  width: 51px !important;
+  height: 7px !important;
+}
+
+.slick-dots li button:before {
+  width: 17px !important;
+  height: 7px !important;
+  content: "" !important;
+  border-radius: 23px !important;
+  opacity: 0.2 !important;
+  background-color: #ffffff6f !important;
+  position: absolute;
+  left: 0;
+}
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 31px !important;
+  height: 7px !important;
+  padding: 0px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+
+  transition: 300ms;
+}
+
+/* --------------------------------------SUPPLY--------------------------------------- */
+.bg_supply {
+  background: linear-gradient(
+    254.85deg,
+    #1643c3 -0.99%,
+    #000000 135.25%
+  ) !important;
+}
+.supply_words {
+  color: var(--White, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 183%;
+}
+.border_bottomblue {
+  border-bottom: 1px solid #345ccb;
+}
+.fv_numeric {
+  font-variant-numeric: lining-nums proportional-nums;
+}
+.underline_white {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.mw_521 {
+  max-width: 521px;
+}
+.my_btn {
+  background: linear-gradient(93deg, #1643c3 10.24%, #369efe 208.68%);
+  border: none;
+  border-radius: none !important;
+  padding: 17px;
+}
+.mw_448 {
+  max-width: 448px;
+}
+.bg_sky {
+  background: linear-gradient(76deg, #1643c3 5.09%, #369efe 88.75%);
+  box-shadow: 0px 17px 29px 0px rgba(21, 64, 186, 0.17);
+  backdrop-filter: blur(9.5px);
+}
+@media (max-width: 768px) {
+  .vault_bg {
+    position: absolute !important;
+    top: 30% !important;
+    right: -19% !important;
+  }
+}
+@media (max-width: 992px) {
+  .vault_bg {
+    position: absolute;
+    top: 30% !important;
+    right: 0%;
+  }
+}
+@media (max-width: 1200px) {
+  .vault_bg {
+    position: absolute;
+    top: 30% !important;
+    right: 10%;
+  }
 }

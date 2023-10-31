@@ -20,7 +20,7 @@
 }
 
 .ff_neue {
-  font-family: "Neue Machine";
+  font-family: "Neue Machine"!important;
 }
 
 :root {
@@ -89,7 +89,23 @@
 .fs_132 {
   font-size: var(--fs-132);
 }
-.line{
-    height: 3px;
-    
+.line {
+  height: 3px;
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-36: 36px;
+    --fs-38: 38px;
+    --fs-46: 46px;
+    --fs-52: 52px;
+    --fs-85: 85px;
+    --fs-132: 128px;
+  }
 }
