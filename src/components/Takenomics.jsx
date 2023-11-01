@@ -1,16 +1,19 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import eefi from "../assets/images/svg/eefi.svg";
 import dyeild from "../assets/images/png/d_veild.png";
-import extravalue from "../assets/images/png/extra_value.png"
+import extravalue from "../assets/images/png/extra_value.png";
+import smartindex from "../assets/images/png/smart_index.png";
+import socialcordination from "../assets/images/png/social_cordinate.png";
+import expansive from "../assets/images/png/expwnsive.png";
 const Takenomics = () => {
   return (
     <>
       <section>
-        <div className="d-flex justify-content-center">
-          <div className="bg-white py-5 w-50 ms-5 ps-5">
-            <div className="d-flex flex-column align-items-start  ">
-              <img src={eefi} alt="takenomics" />
+        <div className="d-flex flex-lg-row flex-column justify-content-between justify-content-lg-center ">
+          <div className="bg-white w_50 ms-xl-5 ps-lg-5 ps-3  my-5 py_100">
+            <div className="d-flex flex-column align-items-start ps-lg-5 pe-lg-5  pe-xl-0 ms-xl-5 ">
+              <h4 className="ff_neue fw-bold text-black fs_46 mb-0">
+                EEFI Tokenomics
+              </h4>
               <p className="text-black text-start ff_raleway fs_16 fw-normal pt-3 mw_448">
                 EEFI is the special rewards token of the protocol that is minted
                 and distributed in a decentralized fashion. It produces
@@ -50,8 +53,8 @@ const Takenomics = () => {
               </p>
             </div>
           </div>
-          <div className="bg_sky py-5 w-50">
-            <div className="d-flex align-items-center">
+          <div className="bg_sky  px-lg-5 col-lg-6 py_100 ">
+            <div className="d-flex align-items-center pt-5">
               <img src={dyeild} alt="dyeild" />
               <div>
                 <h5 className="text-white ff_neue fs_24 fw-bold mb-0">
@@ -62,7 +65,7 @@ const Takenomics = () => {
                 </p>{" "}
               </div>
             </div>
-            <div className="d-flex align-items-center">
+            <div className="d-flex align-items-center pt-4">
               <img src={extravalue} alt="dyeild" />
               <div>
                 <h5 className="text-white ff_neue fs_24 fw-bold mb-0">
@@ -73,36 +76,40 @@ const Takenomics = () => {
                 </p>{" "}
               </div>
             </div>
-            <div className="d-flex align-items-center">
-              <img src={dyeild} alt="dyeild" />
+            <div className="d-flex align-items-center pt-4">
+              <img src={smartindex} alt="dyeild" />
               <div>
                 <h5 className="text-white ff_neue fs_24 fw-bold mb-0">
-                  Decentralized Yield
+                  Smart Index
                 </h5>
-                <p className="text-white text-start ff_raleway fs_16 opacity_80 mb-0 pt-1">
-                  Protocol’s native utility | rewards token
+                <p className="text-white text-start ff_raleway fs_16 opacity_80 mb-0 pt-1 mw_413">
+                  Token can be viewed as an index of all strategy performance on
+                  the protocol
                 </p>{" "}
               </div>
             </div>
-            <div className="d-flex align-items-center">
-              <img src={dyeild} alt="dyeild" />
+            <div className="d-flex align-items-center pt-4">
+              <img src={socialcordination} alt="dyeild" />
               <div>
                 <h5 className="text-white ff_neue fs_24 fw-bold mb-0">
-                  Decentralized Yield
+                  Social Coordination (E,E)
                 </h5>
-                <p className="text-white text-start ff_raleway fs_16 opacity_80 mb-0 pt-1">
-                  Protocol’s native utility | rewards token
+                <p className="text-white text-start ff_raleway fs_16 opacity_80 mb-0 pt-1 mw_413">
+                  Promotes hyper social coordination around all strategies on
+                  the protocol (E,E) (makes hedging fun and working together
+                  produces more benefits to all vault users)
                 </p>{" "}
               </div>
             </div>
-            <div className="d-flex align-items-center">
-              <img src={dyeild} alt="dyeild" />
+            <div className="d-flex align-items-center pt-4">
+              <img src={expansive} alt="dyeild" />
               <div>
                 <h5 className="text-white ff_neue fs_24 fw-bold mb-0">
-                  Decentralized Yield
+                  Expansive Utility Dimensions
                 </h5>
-                <p className="text-white text-start ff_raleway fs_16 opacity_80 mb-0 pt-1">
-                  Protocol’s native utility | rewards token
+                <p className="text-white text-start ff_raleway fs_16 opacity_80 mb-0 pt-1 mw_391">
+                  EEFI’s utility will expand as more strategies are added to the
+                  protocol.
                 </p>{" "}
               </div>
             </div>

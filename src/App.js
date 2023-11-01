@@ -9,14 +9,16 @@ import Supply from "./components/Supply";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Takenomics from "./components/Takenomics";
+import Future from "./components/Future";
 function App() {
   return (
     <>
       <MyNave />
       <Amplify />
       <Core />
-      <Supply />
       <Takenomics />
+      <Supply />
+      <Future/>
     </>
   );
 }

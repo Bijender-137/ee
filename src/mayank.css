@@ -198,6 +198,34 @@ li.slick-active {
   box-shadow: 0px 17px 29px 0px rgba(21, 64, 186, 0.17);
   backdrop-filter: blur(9.5px);
 }
+.w_50 {
+  width: 50%;
+}
+.mw_413 {
+  max-width: 413px;
+}
+.mw_391 {
+  max-width: 391px;
+}
+.py_100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* -------------------------------future-------------------------------- */
+.bg_future {
+  background-image: url(./assets/images/png/bg_future.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mw_882 {
+  max-width: 882px;
+}
+.bg_shadow {
+box-shadow: 0px 5px 23px 0px rgba(22, 67, 195, 0.32);
+}
+
 @media (max-width: 768px) {
   .vault_bg {
     position: absolute !important;
@@ -210,6 +238,9 @@ li.slick-active {
     position: absolute;
     top: 30% !important;
     right: 0%;
+  }
+  .w_50 {
+    width: 100%;
   }
 }
 @media (max-width: 1200px) {

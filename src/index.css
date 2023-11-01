@@ -13,14 +13,14 @@
 }
 
 @font-face {
-  font-family: "Neue Machina";
+  font-family:"Neue Machina";
   src: url(./assets/fonts/NeueMachina-Light.otf);
   src: url(./assets/fonts/NeueMachina-Regular.otf);
   src: url(./assets/fonts/NeueMachina-Ultrabold.otf);
 }
 
 .ff_neue {
-  font-family: "Neue Machine"!important;
+  font-family:"Neue Machine";
 }
 
 :root {
