@@ -1,0 +1,17 @@
+.bg_hero_img {
+    background-image: url("./assets/images/png/hero_bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.nav_btn_border {
+    border-radius: 8px;
+    border: 1px solid var(--Blue, #1643C3);
+    padding: 16px 31px;
+}
+
+@media (min-width:1199.98px) {
+    .min_vh_100 {
+        min-height: 100vh;
+    }
+}

@@ -9,10 +9,12 @@ import Supply from "./components/Supply";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Takenomics from "./components/Takenomics";
+import MyHero from "./components/MyHero";
 function App() {
   return (
     <>
-      <MyNave />
+      {/* <MyNave /> */}
+      <MyHero/>
       <Amplify />
       <Core />
       <Supply />
